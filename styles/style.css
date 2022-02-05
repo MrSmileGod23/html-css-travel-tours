@@ -311,6 +311,13 @@ p {
   font-size: 48px;
   margin-bottom: 45px;
 }
+.reviews__blocks{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+
 .reviews__blocks__element{
   box-shadow: 0px 12px 30px 1px black;
   padding: 20px 10px;
@@ -334,11 +341,7 @@ p {
   align-items: center;
   flex-direction: row;
 }
-.reviews__blocks{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-}
+
 .reviews__slider img{
   cursor: pointer;
   height: 90px;
@@ -445,6 +448,29 @@ p {
   .list_tours__tours__blocks__element:nth-child(3) {
     display: none;
    }
+   .button_tour form input {
+    width:360px;
+    font-size:28px;
+  }
+  .button_tour form input:hover {
+    font-size:30px;
+  }
+  .reviews__blocks{
+    width: 70%;
+  }
+  .reviews__title{
+    font-size: 26px;
+  }
+  .reviews__blocks__element__name-data{
+    font-size: 28px;
+  }
+  .reviews__blocks__element__text{
+    font-size: 18px;
+  }
+  
+.reviews__slider img{
+  height: 40px;
+}
 }
 @media screen and (max-width:700px) {
   .list_tours__filter input{
