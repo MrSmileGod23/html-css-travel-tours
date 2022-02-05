@@ -417,7 +417,7 @@ p {
 @media screen and (max-width:1200px) {
   .advantages__block {
     width: unset;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
   }
 
   .advantages__blocks {
