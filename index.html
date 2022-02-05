@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная страница - Путешествуй просто</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./fonts/fonts.css">
+  <link rel="shortcut icon" href="logotip.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="arrow-up">
+    <a href="./index.html" class="topbutton">
+      <img src="./media/img/arrow-up.png" alt="Ввернуться наверх">
+    </a>
+  </div>
+  <header> <!--главный блок-->
+    <div class="header"> <!--Шапка сайта-->
+      <div class="header__logotip"> <!--Блок логотипа-->
+        <img src="./logotip.png" alt="Логотип"> <!--img лого-->
+        <p>Путешествуй просто</p> <!--Название компании-->
+      </div>
+      <div class="header__telephone"> <!--Блок телефона компании-->
+        8-823-122-45-23 <!--телефон-->
+      </div>
+      <div class="header__call"> <!--Блок звонка-->
+        <form> <!--форма для php-->
+          <input type="submit" value="Заказать звонок"> <!--кнопка для отправки формы-->
+        </form>
+      </div>
+    </div>
+    <div class="quickSelection">  <!--блок горячего тура-->
+      <div class="quickSelection__slogan"> <!--слоган компании-->
+        Наша компания создана для Вашего комфорта.<br> 
+        Мы сделали выбор и покупку тура максимально удобным для Вас.<br>
+      </div>
+      <form> <!--форма для php-->
+        <input type="submit" value="Подбор горящего тура"> <!--кнопка для отправки формы-->
+      </form>
+    </div>
+  </header>
+  <div class="features"> <!--блок с особенностями горящих туров-->
+    <div class="advantages"> <!--блок преимущества-->
+      <div class="advantages__name"> <!--название блока-->
+        Преимущества горящих путевок
+      </div>
+      <div class="advantages__blocks"> <!--flex с блоками преимуществ-->
+        <div class="advantages__block"> <!--блоки преимуществ-->
+          <h2>Низкая цена</h2>
+          <p>Не все туристы имеют возможность заранее спланировать поездку.
+            Иногда решение об отпуске принимается спонтанно, и времени на подготовку путешествия попросту не остается.
+            К тому же, в последний момент практически невозможно подыскать авиабилеты в нужном направлении по скидке и
+            выгодные условия проживания в отелях.
+            В этом случае единственным разумным вариантом остается горящий тур, который позволяет не просто отдохнуть по
+            адекватной цене, но и сэкономить до половины от первоначальной стоимости путевки.
+          </p>
+        </div>
+        <div class="advantages__block"> <!--блоки преимуществ-->
+          <h2>Возможность отправиться в поездку немедленно</h2>
+          <p>Между покупкой турпакета и непосредственным путешествием проходит совсем мало времени.
+            Таким образом, туристу не приходится томиться в ожидании поездки, а можно наслаждаться отдыхом и новыми
+            впечатлениями практически сразу
+          </p>
+        </div>
+      </div>
+    </div>
+    <br><br><br><br>
+    <div class="advantages"> <!--блок недостатков-->
+      <div class="advantages__name"><!--название блока-->
+        Недостатки горящих путевок
+      </div>
+      <div class="advantages__blocks"><!--flex с блоками недостатков-->
+        <div class="advantages__block"> <!--блоки недостатков-->
+          <h2>Необходимость подготовиться к путешествию очень быстро цена</h2>
+          <p>В некоторых случаях на сборы остается всего несколько часов.
+          </p>
+        </div>
+        <div class="advantages__block"> <!--блоки недостатков-->
+          <h2>Невозможность вернуть приобретенные туры обратно отправиться в поездку немедленно</h2>
+          <p>В отличие от раннего бронирования, при отказе от горящей путевки деньги туристу не возвращаются
+
+          </p>
+        </div>
+        <div class="advantages__block"> <!--блоки недостатков-->
+          <h2>Отсутствие возможности выбора</h2>
+          <p>Определенного типа отеля, даты и времени вылета самолета, а также количества дней, которые можно будет
+            провести на отдыхе в другой стране.
+            Это связано с тем, что предлагаемый горящий тур уже предварительно скомплектован туроператором и не подлежит
+            изменению
+          </p>
+        </div>
+        <div class="advantages__block"> <!--блоки недостатков-->
+          <h2>Сезонный фактор</h2>
+          <p>Поскольку в пик сезона спрос на подобные туры значительно возрастает, подобрать подходящий вариант бывает
+            очень сложно. Лучше всего приобретать горящие путевки, когда на туристическом рынке наблюдается снижение
+            спроса
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="list_tours">
+    <div class="list_tours__name">
+      Горящие туры
+    </div>
+    <div class="list_tours__filter">
+      <form method="POST">
+        <input type="submit" value="ВСЕ">
+        <input type="submit" value="Россия">
+        <input type="submit" value="Индонезия">
+        <input type="submit" value="Китай">
+        <input type="submit" value="Вьетнам">
+      </form>
+    </div>
+    <div class="list_tours__tours">
+      <div class="list_tours__tours__blocks">
+        <div class="tours__slider">
+         <img src="./media/img/arrow2.png" alt="Стрелочка влево">
+        </div>
+        <div class="list_tours__tours__blocks__element">
+          <img src="./media/tours/Russia/Адлер.jpg" alt="Изображение тура Адлер">
+          <h1>Адлер</h1>
+          <p>28 600 руб.</p>
+          <p>Россия</p>
+        </div>
+        <div class="list_tours__tours__blocks__element">
+          <img src="./media/tours/Indonesia/Бали.jpg" alt="Изображение тура Бали">
+          <h1>Бали</h1>
+          <p>88 600 руб.</p>
+          <p>Индонезия</p>
+        </div>
+        <div class="list_tours__tours__blocks__element">
+          <img src="./media/tours/China/Санья.jpg" alt="Изображение тура Санья">
+          <h1>Санья</h1>
+          <p>38 600 руб.</p>
+          <p>Китай</p>
+        </div>
+        <div class="list_tours__tours__blocks__element">
+          <img src="./media/tours/Indonesia/Кута.jpg" alt="Изображение тура Кута">
+          <h1>Кута</h1>
+          <p>81 666 руб.</p>
+          <p>Индонезия</p>
+        </div>
+        <div class="list_tours__tours__blocks__element">
+          <img src="./media/tours/Russia/Домбай.jpg" alt="Изображение тура Домбай">
+          <h1>Домбай</h1>
+          <p>36 400 руб.</p>
+          <p>Россия</p>
+        </div>
+        <div class="list_tours__tours__blocks__element">
+          <img src="./media/tours/China/о.Хайнань.jpg" alt="Изображение тура о.Хайнань">
+          <h1>о.Хайнань</h1>
+          <p>48 750 руб.</p>
+          <p>Китай</p>
+        </div>
+        <div class="tours__slider">
+          <img src="./media/img/arrow.png" alt="Стрелочка вправо" >
+         </div>
+      </div>
+    </div>
+  </div>
+  <div class="consultants">
+    <div class="consultants__title">
+      Наши консультанты
+    </div>
+    <div class="consultants__blocks">
+      <div class="consultants__blocks__element">
+        <img src="./media/consultants/Galina.jpg" alt="Фото Консультанта">
+        <h2>Галина Петрова</h2>
+        <p>Менеджер по туризму</p>
+      </div>
+      <div class="consultants__blocks__element">
+        <img src="./media/consultants/Ivan.jpg" alt="Фото Консультанта">
+        <h2>Иван Алексеев</h2>
+        <p>Менеджер по туризму</p>
+      </div>
+      <div class="consultants__blocks__element">
+        <img src="./media/consultants/Svetlana.jpg" alt="Фото Консультанта">
+        <h2>Светлана Астахова</h2>
+        <p>Менеджер по туризму</p>
+      </div>
+    </div>
+  </div>
+  <div class="advantages_company"> <!--блок с особенностями горящих туров-->
+    <div class="advantages_company__title">
+      Преимущества выбора нашей компании
+    </div>
+
+    <div class="advantages_company__blocks">
+      <div class="advantages_company__blocks__element">
+        <div class="advantages_company__blocks__element__plus">
+          <img src="./media/img/plus_white.png" alt="Плюс">
+        </div>
+        <div class="advantages_company__blocks__element__text">
+          <p>Огромный выбор туров</p>
+        </div>
+      </div>
+      <div class="advantages_company__blocks__element">
+        <div class="advantages_company__blocks__element__plus">
+          <img src="./media/img/plus_white.png" alt="Плюс">
+        </div>
+        <div class="advantages_company__blocks__element__text">
+          <p>Лучший онлайн поиск туров с вылетом из Томска</p>
+        </div>
+      </div>
+      <div class="advantages_company__blocks__element">
+        <div class="advantages_company__blocks__element__plus">
+          <img src="./media/img/plus_white.png" alt="Плюс">
+        </div>
+        <div class="advantages_company__blocks__element__text">
+          <p>Максимальные скидки по всем операторам</p>
+        </div>
+      </div>
+      <div class="advantages_company__blocks__element">
+        <div class="advantages_company__blocks__element__plus">
+          <img src="./media/img/plus_white.png" alt="Плюс">
+        </div>
+        <div class="advantages_company__blocks__element__text">
+          <p>Покупка авиабилетов в любую точку мира</p>
+        </div>
+      </div>
+      <div class="advantages_company__blocks__element">
+        <div class="advantages_company__blocks__element__plus">
+          <img src="./media/img/plus_white.png" alt="Плюс">
+        </div>
+        <div class="advantages_company__blocks__element__text">
+          <p>Надёжность, гарантированная честным договором с туристами!</p>
+        </div>
+      </div>
+      <div class="advantages_company__blocks__element">
+        <div class="advantages_company__blocks__element__plus">
+          <img src="./media/img/plus_white.png" alt="Плюс">
+        </div>
+        <div class="advantages_company__blocks__element__text">
+          <p>Вся информация о клиенте конфиденциальна.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="reviews">
+    <div class="reviews__title">
+      Отзывы наших пользователей
+    </div>
+    <div class="reviews__block">
+      <div class="reviews__slider">
+        <img src="./media/img/arrow2_black.png" alt="Стрелочка влево">
+       </div>
+       <div class="reviews__blocks">
+         <div class="reviews__blocks__element">
+           <div class="reviews__blocks__element__name-data">
+            <p>Надежда</p>
+            <p>11.11.2019</p>
+           </div>
+           <div class="reviews__blocks__element__text">
+             <p>Отдыхали в Тайланде с 15.10.19г.от данной турфирмы .
+                Отдых получился отличный, с погодой угадали, без дождей.
+                Хочется от души поблагодарить менеджера Бельскую Ольгу Сергеевну за подбор тура,
+                выбранного отеля Амбасадор Океан Винг,
+                за приятное общение. Дай вам Бог здоровья, класных клиентов , счастья и любви.
+                 Будем вас рекомендовать друзьям ,родным и знакомым. СПАСИБО!!!!</p>
+          </div>
+         </div>
+       </div>
+       <div class="reviews__slider">
+        <img src="./media/img/arrow_black.png" alt="Стрелочка вправо">
+       </div>
+    </div>
+  </div>
+  <div class="button_tour">
+    <form> <!--форма для php-->
+      <input type="submit" value="Подбор горящего тура"> <!--кнопка для отправки формы-->
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,456 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+::-webkit-scrollbar{
+  width: 0;
+}
+h1,h2,h3,h4{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Jura;
+}
+.topbutton {
+  position:fixed;
+  bottom:30px;
+  right:30px;
+  cursor:pointer;
+  z-index: 4;
+  }
+.topbutton img {
+  width:50px;
+  }
+header {
+  color: #FFFF;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+  height: 974px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.35)), url(../media/img/Сочи-10-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #44a454;
+}
+
+.header {
+  display: flex;
+  margin-top: 15px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.header__logotip {
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+}
+
+.header__logotip p {
+  margin-left: 10px;
+}
+
+.header__telephone {
+  font-size: 24px;
+}
+
+.header form input,
+.quickSelection form input {
+  font-family: Jura;
+  width: 230px;
+  height: 53px;
+  font-size: 24px;
+  color: #FFF;
+  border: none;
+  background: #007516;
+  border-radius: 10px;
+}
+
+.quickSelection form input {
+  width: 280px;
+}
+
+.header__call form input:hover,
+.quickSelection form input:hover {
+  background: #025812;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.quickSelection {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  /*background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../media/img/Сочи-10-1.jpg);*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quickSelection__slogan {
+  padding: 15px;
+  color: #FFFF;
+  font-size: 36px;
+}
+
+.features {
+  margin: 130px 0px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+}
+
+.advantages__name {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+h2,
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.advantages__blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.advantages__block h2 {
+  font-size: 28px;
+}
+
+.advantages__block p {
+  font-size: 20px;
+}
+
+.advantages__block {
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+}
+
+.list_tours{
+  padding: 40px 0;
+  color: #FFFF;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.35)), url(../media/img/Spain-1024x768.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.list_tours__name{
+  text-align: center;
+  font-size: 48px;
+
+}
+.list_tours__filter{
+  padding: 30px 0px;
+  margin: 0px 25px 50px 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.list_tours__filter form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.list_tours__filter input{
+  font-family: Jura;
+  margin: 0px 15px;
+  width: 230px;
+  height: 53px;
+  font-size: 24px;
+  color: #FFF;
+  border: none;
+  background: rgba(0, 0, 0, 0.582);
+  border-radius: 10px;
+}
+.list_tours__filter input:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.list_tours__tours__blocks{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+.tours__slider{
+  display: flex;
+  align-items: center;  
+}
+.tours__slider img{
+  height: 50px;
+  cursor: pointer;
+}
+.list_tours__tours__blocks__element{
+  margin: 0px 25px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.582);
+}
+.list_tours__tours__blocks__element:hover{
+  transform: scale(1.025);
+  cursor: pointer;
+}
+.list_tours__tours__blocks__element img{
+  border-radius: 10px 10px 0px 0px;
+}
+.list_tours__tours__blocks__element h1{
+  margin: 10px 0px;
+}
+.list_tours__tours__blocks__element p{
+  font-size: 20px;
+}
+
+.consultants{
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.consultants__title{
+  font-size: 46px;
+  text-align: center;
+}
+.consultants__blocks{
+  margin: 50px 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.consultants__blocks__element{
+  text-align:center;
+  font-size: 20px;
+}
+.consultants__blocks__element img{
+  border-radius: 10px 10px 0px 0px;
+  height: 250px;
+  width: 250px;
+}
+
+.advantages_company{
+  display: flex;
+  padding: 40px 0px;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFF;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.35)), url(../media/img/23d68b79113b6e348ab17e95500a16cf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.advantages_company__blocks{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.advantages_company__title{
+  font-size: 48px;
+  text-align: center;
+}
+.advantages_company__blocks__element{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.advantages_company__blocks__element__plus img{
+  height: 50px;
+}
+.advantages_company__blocks__element__text{
+
+  width: 95%;
+  padding: 20px 20px;
+  margin: 20px 0px;
+  border-radius: 15px;
+  font-size: 28px;
+  background-color: rgba(0, 0, 0, 0.582);
+}
+
+
+.reviews{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+}
+.reviews__title{
+  font-size: 48px;
+  margin-bottom: 45px;
+}
+.reviews__blocks__element{
+  box-shadow: 0px 12px 30px 1px black;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.reviews__blocks__element__name-data{
+  display: flex;
+  flex-direction: row;
+  font-size: 28px;
+  font-weight: 700;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.reviews__blocks__element__text{
+  font-size: 24px;
+}
+.reviews__block{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.reviews__blocks{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.reviews__slider img{
+  cursor: pointer;
+  height: 90px;
+}
+
+.button_tour{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  padding: 200px 0px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.35)), url(../media/img/e644b78ea1be3d6b00d6a109f5621f8b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #44a454;
+}
+.button_tour form input {
+  font-family: Jura;
+  width: 500px;
+  height: 100px;
+  font-size: 42px;
+  color: #FFF;
+  border: none;
+  background: #007516;
+  border-radius: 10px;
+}
+
+.button_tour form input:hover {
+  background: #025812;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+  .header {
+    align-items: center;
+    justify-content: unset;
+    flex-direction: column;
+  }
+
+  .header__logotip {
+    font-size: 24px;
+  }
+
+  .header__telephone {
+    font-size: 24px;
+    margin: 20px 0px;
+  }
+
+  .header form input {
+    font-family: 'Kelly Slab';
+    width: 200px;
+    height: 53px;
+    font-size: 24px;
+    color: #FFF;
+    border: none;
+    background: #007516;
+    border-radius: 10px;
+  }
+  .list_tours__tours__blocks__element img{
+    width: 200px;
+  }
+  .list_tours__tours__blocks__element{
+    margin: 0px 10px;
+  }
+  .consultants__blocks__element{
+    margin: 40px 0px;
+  }
+  .advantages_company__blocks__element__plus img{
+    display: none;
+  }
+  .advantages_company__title{
+    font-size: 42px;
+  }
+}
+@media screen and (max-width:1200px) {
+  .advantages__block {
+    width: unset;
+    margin-bottom: 18px;
+  }
+
+  .advantages__blocks {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+/*Уменьшение видных карточек в слайдоре*/
+@media screen and (max-width:1900px) {
+  .list_tours__tours__blocks__element:nth-child(6) {
+    display: none;
+   }
+}
+@media screen and (max-width:1600px) {
+  .list_tours__tours__blocks__element:nth-child(5) {
+    display: none;
+   }
+}
+@media screen and (max-width:1300px) {
+  .list_tours__tours__blocks__element:nth-child(4) {
+    display: none;
+   }
+}
+@media screen and (max-width:1000px) {
+  .list_tours__tours__blocks__element:nth-child(3) {
+    display: none;
+   }
+}
+@media screen and (max-width:700px) {
+  .list_tours__filter input{
+    margin: 5px 0px;
+  }
+  .list_tours__tours__blocks__element:nth-child(2) {
+    display: none;
+   }
+}
