@@ -1,7 +1,5 @@
-# mrsmilegod23-html.css
-
-<h1>https://mrsmilegod23.github.io/mrsmilegod23-html.css/</h1>
-<h1>Привествую тебя на одном из моих проектов.</h1>
+<h4>https://mrsmilegod23.github.io/mrsmilegod23-html.css/</h4>
+<h1><center>Привествую тебя на одном из моих проектов.</center></h1>
 
 Вот краткая информация:
 
