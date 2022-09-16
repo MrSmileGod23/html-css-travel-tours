@@ -1,4 +1,4 @@
-<h4>https://mrsmilegod23.github.io/mrsmilegod23-html.css/</h4>
+<h4>https://mrsmilegod23.github.io/html-css-travel-tours/</h4>
 <h1>Привествую тебя на одном из моих проектов.</h1>
 
 Вот краткая информация:
