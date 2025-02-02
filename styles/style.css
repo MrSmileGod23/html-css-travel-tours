@@ -315,11 +315,13 @@ p {
   width: 50%;
   display: flex;
   flex-direction: column;
+
 }
 
 
 .reviews__blocks__element{
   box-shadow: 0px 12px 30px 1px black;
+  border-radius: 20px;
   padding: 20px 10px;
   display: flex;
   flex-direction: column;
@@ -344,7 +346,8 @@ p {
 
 .reviews__slider img{
   cursor: pointer;
-  height: 90px;
+  margin:0px 40px;
+  height: 60px;
 }
 
 .button_tour{
@@ -392,7 +395,6 @@ p {
   }
 
   .header form input {
-    font-family: 'Kelly Slab';
     width: 200px;
     height: 53px;
     font-size: 24px;
@@ -445,6 +447,9 @@ p {
    }
 }
 @media screen and (max-width:1000px) {
+  .advantages_company__blocks__element__text{
+    font-size: 20px;
+  }
   .list_tours__tours__blocks__element:nth-child(3) {
     display: none;
    }
@@ -473,6 +478,27 @@ p {
 }
 }
 @media screen and (max-width:700px) {
+  .quickSelection__slogan {
+    font-size: 28px;
+  }
+
+  .reviews__title{
+    font-size: 22px;
+  }
+  .reviews__blocks__element__name-data{
+    font-size: 22px;
+  }
+  .reviews__blocks__element__text{
+    font-size: 12px;
+  }
+  .reviews__slider img{
+    margin: 0px 5px;
+    height: 35px;
+  }
+  .button_tour form input {
+    width:280px;
+    font-size:22px;
+  }
   .list_tours__filter input{
     margin: 5px 0px;
   }
